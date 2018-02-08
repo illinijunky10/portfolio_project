@@ -1,0 +1,20 @@
+body {
+  background-color: #D6EAF8;
+  color: #273746;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 15px;
+}
+
+.content {
+  background-color: #85C1E9;
+  color: #2C3E50;
+  padding: 15px;
+}
+
+p {
+  margin: 0 15px;
+}
