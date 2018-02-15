@@ -1,20 +1,90 @@
 body {
-  background-color: #D6EAF8;
-  color: #273746;
-  margin: 0;
-  padding: 0;
+  color: #828282;
+  margin: 5px;
+  padding: 5px;
 }
 
 .header {
   padding: 15px;
+  height: 50px;
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+ul hr {
+  height: 20px;
+  width: 1px;
+  display: inline;
+  color: #000000;
+}
+
+h1 {
+  text-align: center;
+}
+
+.about {
+  background-color: #ebebeb;
+  height: 600px;
+  margin: 0px;
 }
 
 .content {
-  background-color: #85C1E9;
   color: #2C3E50;
   padding: 15px;
+  float: left;
 }
 
-p {
-  margin: 0 15px;
+.thumbnail {
+    height: 200px;
+    float: left;
+    border: solid;
+    margin: 10px;
+}
+
+.content p {
+    padding: 50px;
+}
+
+.experience{
+  background-color: #f9ceb7;
+  height: 600px;
+}
+
+.skill1 p {
+  padding: 10px;
+  width: 60px;
+  height: 20px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  float: left;
+  margin-right: 10px;
+}
+
+.skill2 p{
+  padding: 10px;
+  width: 60px;
+  height: 20px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+  float: left;
+  margin-right: 1400px;
+}
+
+.project {
+  border: solid;
+  padding: 5px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  float: left;
+  display: inline;
 }
